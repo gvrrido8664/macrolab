@@ -20,6 +20,6 @@ dist/
 build/
 .dart_tool/
 .wrangler/
-.local-/data/
+.local-data/
 /data/
 /models/

@@ -26,7 +26,7 @@ Desde `frontend/`:
 ```powershell
 npm run check
 ```
-Verificado: 19 pruebas del backend, 4 del frontend, contrato, lint y tipos. El build se comprobó con `npm run build -- --webpack`: Turbopack no admite el enlace temporal a dependencias externas utilizado en esta revisión. Con instalación normal `npm ci`, el script build mantiene el comportamiento original. El typecheck genera primero los tipos de rutas para funcionar desde una copia limpia.
+Verificado: 19 pruebas del backend, 4 del frontend, contrato, lint y tipos. También se clonó el repositorio publicado, se instalaron dependencias con npm ci y se ejecutó npm run check completo: lint, pruebas, tipos y build Turbopack aprobados. El typecheck genera primero los tipos de rutas para funcionar desde una copia limpia.
 
 ## Flujo completo local
 Sigue los README de ambas carpetas. Para datos sintéticos usa `backend/dev_fixture_server.py`, puerto 8011, y el frontend en desarrollo con `ALLOW_MOCK_AUTH=true`, `MACROLAB_API_URL=http://127.0.0.1:8011` y un secreto interno local compartido. No se distribuyen secretos ni bases de usuarios.
