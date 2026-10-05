@@ -35,3 +35,11 @@ Sigue los README de ambas carpetas. Para datos sintéticos usa `backend/dev_fixt
 Las reglas permiten reflexionar sobre eventos observados; no son predicciones calibradas. Las posiciones discretas no reconstruyen todos los movimientos o la visión del jugador. No hay cobros activos ni verificación RSO. La integración real con Riot requiere clave propia y no fue ejecutada. SQLite supone un único host con disco persistente. Ver [créditos](THIRD_PARTY.md).
 
 English: evidence-based post-match review, a credential-free synthetic demo, isolated HTTP/storage tests and a generated frontend/backend contract.
+
+## Comprobación del flujo completo
+
+Dashboard restaurado. 19 pruebas backend, 4 frontend, contrato, lint, tipos y build Turbopack aprobados con /dashboard incluida. Flujo en navegador con backend y base temporal: login local, búsqueda ficticia, análisis, alternativas, navegación temporal, hábito, historial persistente al recargar, enlace de revisión, comentario recuperado por el autor y revocación comprobados. API Riot y OAuth reales pendientes.
+
+La cuenta de desarrollo y las respuestas Riot son simuladas: esta prueba no acredita una integración real con Riot ni con GitHub OAuth. La base temporal persiste durante la sesión de prueba y desaparece al detener el servidor. El hábito se inició en 0/5; no se completaron cinco partidas en navegador. La exportación y el borrado de cuenta solo tienen cobertura automatizada, no se ejecutaron desde la interfaz.
+
+![Dashboard local con informe recuperado](docs/dashboard-prueba.jpg)
