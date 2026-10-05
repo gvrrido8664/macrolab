@@ -1,0 +1,570 @@
+{
+  "schema_version": 2,
+  "analysis_version": "evidence-1",
+  "match_id": "DEMO_001",
+  "data_source": "demo",
+  "status": "ready",
+  "queue_id": 420,
+  "map_id": 11,
+  "patch": "16.17.1",
+  "data_quality": [
+    "Posiciones muestreadas; no reconstruyen rutas ni visión activa.",
+    "Las reglas son experimentales; las secuencias temporales no prueban causalidad."
+  ],
+  "archetype": "Proteger al carry",
+  "model_key": "PROTECT_CARRY",
+  "model_reason": "Sinergia directa Lulu + Jinx.",
+  "model_evaluation": [
+    {
+      "key": "PROTECT_CARRY",
+      "name": "Proteger al carry",
+      "score": 7,
+      "reason": "Sinergia directa Lulu + Jinx."
+    },
+    {
+      "key": "SPLIT_PUSH_131",
+      "name": "Presión lateral (4-1 / 1-3-1)",
+      "score": 0,
+      "reason": "No hay duelista lateral en TOP o MID."
+    },
+    {
+      "key": "POKE",
+      "name": "Asedio y poke",
+      "score": 0,
+      "reason": "Se necesitan al menos dos fuentes de poke."
+    },
+    {
+      "key": "ENGAGE",
+      "name": "Iniciación y teamfight",
+      "score": 5,
+      "reason": "Iniciación fiable de Ornn, Sejuani."
+    },
+    {
+      "key": "PICK",
+      "name": "Cazadas y picks",
+      "score": 0,
+      "reason": "Se necesitan al menos dos herramientas de captura."
+    },
+    {
+      "key": "DIVE",
+      "name": "Dive / acceso a retaguardia",
+      "score": 0,
+      "reason": "Se necesitan al menos dos amenazas de dive."
+    },
+    {
+      "key": "COUNTER_ENGAGE",
+      "name": "Counter-engage / disengage",
+      "score": 6,
+      "reason": "Respuesta y disengage de Lulu, Orianna. El rival tiene herramientas de iniciación."
+    },
+    {
+      "key": "FRONT_TO_BACK",
+      "name": "Teamfight (Front-to-Back)",
+      "score": 4,
+      "reason": "Primera línea de Ornn, Sejuani y daño desde retaguardia."
+    }
+  ],
+  "composition": [
+    {
+      "champion_name": "Ornn",
+      "champion_id": 516,
+      "role": "TOP"
+    },
+    {
+      "champion_name": "Sejuani",
+      "champion_id": 113,
+      "role": "JUNGLE"
+    },
+    {
+      "champion_name": "Orianna",
+      "champion_id": 61,
+      "role": "MIDDLE"
+    },
+    {
+      "champion_name": "Jinx",
+      "champion_id": 222,
+      "role": "BOTTOM"
+    },
+    {
+      "champion_name": "Lulu",
+      "champion_id": 117,
+      "role": "UTILITY"
+    }
+  ],
+  "enemy_composition": [
+    {
+      "champion_name": "Garen",
+      "champion_id": 86,
+      "role": "TOP"
+    },
+    {
+      "champion_name": "Vi",
+      "champion_id": 254,
+      "role": "JUNGLE"
+    },
+    {
+      "champion_name": "Ahri",
+      "champion_id": 103,
+      "role": "MIDDLE"
+    },
+    {
+      "champion_name": "Ashe",
+      "champion_id": 22,
+      "role": "BOTTOM"
+    },
+    {
+      "champion_name": "Nautilus",
+      "champion_id": 111,
+      "role": "UTILITY"
+    }
+  ],
+  "match_stats": {
+    "champion_name": "Lulu",
+    "champion_id": 117,
+    "role": "UTILITY",
+    "team_id": 100,
+    "win": true,
+    "game_created_at": 1788652800000,
+    "duration_seconds": 1800,
+    "queue_id": 420,
+    "patch": "16.17.1",
+    "kills": 2,
+    "deaths": 3,
+    "assists": 8,
+    "kda": 3.33,
+    "cs_per_min": 1.0,
+    "vision_score": 45.0,
+    "vision_per_min": 1.5,
+    "damage_per_min": 500.0,
+    "gold_per_min": 266.67,
+    "wards_placed": 20,
+    "wards_killed": 5,
+    "turret_damage": 1000,
+    "kill_participation_pct": 100.0,
+    "lane_opponent": "Nautilus",
+    "cs_delta": -120,
+    "gold_delta": 0
+  },
+  "game_plan": {
+    "win_condition": "Mantener vivo al carry para que gane la pelea con daño sostenido.",
+    "phases": [
+      {
+        "title": "Early game",
+        "start": 0,
+        "end": 14,
+        "action": "Acelera el oro del carry y evita riesgos aislados."
+      },
+      {
+        "title": "Mid game",
+        "start": 15,
+        "end": 24,
+        "action": "Controla flancos y acompaña sus rotaciones."
+      },
+      {
+        "title": "Late game",
+        "start": 25,
+        "end": null,
+        "action": "Reserva control y escudos para quien alcance al carry."
+      }
+    ]
+  },
+  "player_route": [
+    {
+      "timestamp": 0,
+      "position_pct": {
+        "x": 20.242914979757085,
+        "y": 73.12008601572475
+      }
+    },
+    {
+      "timestamp": 60000,
+      "position_pct": {
+        "x": 21.592442645074225,
+        "y": 72.44808816611787
+      }
+    },
+    {
+      "timestamp": 120000,
+      "position_pct": {
+        "x": 22.941970310391362,
+        "y": 71.77609031651099
+      }
+    },
+    {
+      "timestamp": 180000,
+      "position_pct": {
+        "x": 24.291497975708502,
+        "y": 71.1040924669041
+      }
+    },
+    {
+      "timestamp": 240000,
+      "position_pct": {
+        "x": 25.64102564102564,
+        "y": 70.43209461729722
+      }
+    },
+    {
+      "timestamp": 300000,
+      "position_pct": {
+        "x": 26.99055330634278,
+        "y": 69.76009676769034
+      }
+    },
+    {
+      "timestamp": 360000,
+      "position_pct": {
+        "x": 28.34008097165992,
+        "y": 69.08809891808346
+      }
+    },
+    {
+      "timestamp": 420000,
+      "position_pct": {
+        "x": 29.68960863697706,
+        "y": 68.41610106847658
+      }
+    },
+    {
+      "timestamp": 480000,
+      "position_pct": {
+        "x": 31.039136302294196,
+        "y": 67.7441032188697
+      }
+    },
+    {
+      "timestamp": 540000,
+      "position_pct": {
+        "x": 32.388663967611336,
+        "y": 67.07210536926283
+      }
+    },
+    {
+      "timestamp": 600000,
+      "position_pct": {
+        "x": 33.738191632928476,
+        "y": 66.40010751965593
+      }
+    },
+    {
+      "timestamp": 660000,
+      "position_pct": {
+        "x": 35.08771929824561,
+        "y": 65.72810967004907
+      }
+    },
+    {
+      "timestamp": 720000,
+      "position_pct": {
+        "x": 36.43724696356275,
+        "y": 65.05611182044217
+      }
+    },
+    {
+      "timestamp": 780000,
+      "position_pct": {
+        "x": 37.7867746288799,
+        "y": 64.3841139708353
+      }
+    },
+    {
+      "timestamp": 840000,
+      "position_pct": {
+        "x": 39.13630229419703,
+        "y": 63.71211612122841
+      }
+    },
+    {
+      "timestamp": 900000,
+      "position_pct": {
+        "x": 40.48582995951417,
+        "y": 63.04011827162153
+      }
+    },
+    {
+      "timestamp": 960000,
+      "position_pct": {
+        "x": 41.83535762483131,
+        "y": 62.36812042201465
+      }
+    },
+    {
+      "timestamp": 1020000,
+      "position_pct": {
+        "x": 43.18488529014845,
+        "y": 61.696122572407766
+      }
+    },
+    {
+      "timestamp": 1080000,
+      "position_pct": {
+        "x": 44.534412955465584,
+        "y": 61.024124722800885
+      }
+    },
+    {
+      "timestamp": 1140000,
+      "position_pct": {
+        "x": 45.883940620782724,
+        "y": 60.35212687319401
+      }
+    },
+    {
+      "timestamp": 1200000,
+      "position_pct": {
+        "x": 47.233468286099864,
+        "y": 59.68012902358713
+      }
+    },
+    {
+      "timestamp": 1260000,
+      "position_pct": {
+        "x": 48.582995951417004,
+        "y": 59.008131173980246
+      }
+    },
+    {
+      "timestamp": 1320000,
+      "position_pct": {
+        "x": 49.932523616734144,
+        "y": 58.336133324373364
+      }
+    },
+    {
+      "timestamp": 1380000,
+      "position_pct": {
+        "x": 51.28205128205128,
+        "y": 57.66413547476648
+      }
+    },
+    {
+      "timestamp": 1440000,
+      "position_pct": {
+        "x": 52.63157894736842,
+        "y": 56.9921376251596
+      }
+    },
+    {
+      "timestamp": 1500000,
+      "position_pct": {
+        "x": 53.98110661268556,
+        "y": 56.32013977555272
+      }
+    },
+    {
+      "timestamp": 1560000,
+      "position_pct": {
+        "x": 55.3306342780027,
+        "y": 55.648141925945836
+      }
+    },
+    {
+      "timestamp": 1620000,
+      "position_pct": {
+        "x": 56.68016194331984,
+        "y": 54.976144076338954
+      }
+    },
+    {
+      "timestamp": 1680000,
+      "position_pct": {
+        "x": 58.02968960863698,
+        "y": 54.30414622673207
+      }
+    },
+    {
+      "timestamp": 1740000,
+      "position_pct": {
+        "x": 59.37921727395412,
+        "y": 53.63214837712519
+      }
+    },
+    {
+      "timestamp": 1800000,
+      "position_pct": {
+        "x": 60.72874493927125,
+        "y": 52.960150527518316
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "10:0",
+      "type": "WARD_PLACED",
+      "timestamp": 599000,
+      "detail": "YELLOW_TRINKET",
+      "position_pct": null,
+      "position_estimated": true
+    },
+    {
+      "id": "11:0",
+      "type": "CHAMPION_KILL",
+      "timestamp": 628000,
+      "detail": "Tu muerte",
+      "position_pct": {
+        "x": 64.1025641025641,
+        "y": 63.04011827162153
+      },
+      "position_estimated": false
+    },
+    {
+      "id": "11:1",
+      "type": "ELITE_MONSTER_KILL",
+      "timestamp": 660000,
+      "detail": "DRAGON",
+      "position_pct": {
+        "x": 66.12685560053981,
+        "y": 69.76009676769034
+      },
+      "position_estimated": false
+    },
+    {
+      "id": "20:0",
+      "type": "ITEM_PURCHASED",
+      "timestamp": 1180000,
+      "detail": "2055",
+      "position_pct": null,
+      "position_estimated": false
+    },
+    {
+      "id": "21:0",
+      "type": "ELITE_MONSTER_KILL",
+      "timestamp": 1210000,
+      "detail": "DRAGON",
+      "position_pct": {
+        "x": 66.12685560053981,
+        "y": 69.76009676769034
+      },
+      "position_estimated": false
+    },
+    {
+      "id": "25:0",
+      "type": "CHAMPION_KILL",
+      "timestamp": 1450000,
+      "detail": "Baja global",
+      "position_pct": {
+        "x": 50.607287449392715,
+        "y": 49.6001612794839
+      },
+      "position_estimated": false
+    },
+    {
+      "id": "25:1",
+      "type": "BUILDING_KILL",
+      "timestamp": 1480000,
+      "detail": "TOWER_BUILDING",
+      "position_pct": {
+        "x": 60.72874493927125,
+        "y": 39.520193535380685
+      },
+      "position_estimated": false
+    }
+  ],
+  "decisions": [
+    {
+      "id": "kill_conversion:25:0:25:1",
+      "rule_id": "kill_conversion",
+      "timestamp": 1449000,
+      "title": "De la baja al objetivo",
+      "prompt": "En este instante, ¿qué alternativa considerarías y qué información necesitarías?",
+      "facts": [
+        "Participaste en una baja y tu equipo obtuvo TOWER_BUILDING 30 s después."
+      ],
+      "interpretation": "Es una secuencia que vale la pena revisar; no demuestra que tu baja causara el objetivo.",
+      "evidence_ids": [
+        "25:0",
+        "25:1"
+      ],
+      "alternatives": [
+        {
+          "label": "Buscar un objetivo",
+          "tradeoff": "Exige recursos y posición favorables; puede exponerte a una respuesta."
+        },
+        {
+          "label": "Reagrupar y gastar oro",
+          "tradeoff": "Reduce exposición, pero puede cerrar una ventana de presión."
+        }
+      ],
+      "limitations": [
+        "No conocemos la visión disponible, todos los enfriamientos ni el estado detallado de las oleadas.",
+        "La ventana de 60 s es una heurística experimental, no una calificación de tu decisión."
+      ],
+      "confidence": "observed_sequence",
+      "context": [
+        "Diferencia de oro del equipo en la muestra previa: -250. Antigüedad: 9 s. Dato de revisión, no visión del jugador."
+      ]
+    },
+    {
+      "id": "purchase_before_objective:20:0:21:0",
+      "rule_id": "purchase_before_objective",
+      "timestamp": 1179000,
+      "title": "Compra y preparación",
+      "prompt": "En este instante, ¿qué alternativa considerarías y qué información necesitarías?",
+      "facts": [
+        "Compraste el objeto 2055 30 s antes de una captura de DRAGON."
+      ],
+      "interpretation": "Revisa el tiempo disponible para volver al mapa. Una compra no demuestra un recall tardío.",
+      "evidence_ids": [
+        "20:0",
+        "21:0"
+      ],
+      "alternatives": [
+        {
+          "label": "Preparar recursos antes",
+          "tradeoff": "Puede requerir abandonar una oleada o presión."
+        },
+        {
+          "label": "Posponer la compra",
+          "tradeoff": "Conservas presencia, pero sigues sin gastar el oro."
+        }
+      ],
+      "limitations": [
+        "No conocemos la visión disponible, todos los enfriamientos ni el estado detallado de las oleadas.",
+        "La ventana de 60 s es una heurística experimental, no una calificación de tu decisión."
+      ],
+      "confidence": "observed_sequence",
+      "context": [
+        "Diferencia de oro del equipo en la muestra previa: -250. Antigüedad: 39 s. Dato de revisión, no visión del jugador."
+      ]
+    },
+    {
+      "id": "death_before_objective:11:0:11:1",
+      "rule_id": "death_before_objective",
+      "timestamp": 627000,
+      "title": "Riesgo antes de un objetivo",
+      "prompt": "En este instante, ¿qué alternativa considerarías y qué información necesitarías?",
+      "facts": [
+        "Tu muerte precedió en 32 s a una captura de DRAGON."
+      ],
+      "interpretation": "Revisa si exponerte tenía una compensación razonable. El desenlace no prueba que debieras disputar.",
+      "evidence_ids": [
+        "11:0",
+        "11:1"
+      ],
+      "alternatives": [
+        {
+          "label": "Reducir exposición",
+          "tradeoff": "Conservar recursos puede ceder presión o territorio."
+        },
+        {
+          "label": "Aceptar el riesgo",
+          "tradeoff": "Necesita una compensación concreta; el intercambio puede salir mal."
+        }
+      ],
+      "limitations": [
+        "No conocemos la visión disponible, todos los enfriamientos ni el estado detallado de las oleadas.",
+        "La ventana de 60 s es una heurística experimental, no una calificación de tu decisión."
+      ],
+      "confidence": "observed_sequence",
+      "context": [
+        "Diferencia de oro del equipo en la muestra previa: -250. Antigüedad: 27 s. Dato de revisión, no visión del jugador."
+      ]
+    }
+  ],
+  "habit_metric": {
+    "eligible": true,
+    "numerator": 1,
+    "denominator": 2
+  },
+  "saved": false
+}
